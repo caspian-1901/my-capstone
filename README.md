@@ -1,19 +1,43 @@
-# My Capstone
+# My Capstone Project
 
-## What this is
-One-line description of the project.
+## Overview
 
-## Stack
-- Frontend: 
-- Backend: 
-- Database: 
-- AI/Tooling: Claude Code
+This repository contains the setup and development for my capstone project.
 
-## Status
-🚧 In setup phase
+## Tech Stack
+
+- Node.js
+- Git
+- VS Code
 
 ## Getting Started
-\`\`\`bash
+
+Clone the repository:
+
+```bash
+git clone <repository-url>
+```
+
+## Run Locally
+
+1. Install dependencies:
+
+```bash
 npm install
-npm run dev
-\`\`\`
+```
+
+2. Start the application:
+
+```bash
+npm start
+```
+
+3. Open your browser and visit:
+
+```
+http://localhost:3000
+```
+
+## Project Status
+
+Initial project setup completed.
