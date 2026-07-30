@@ -21,3 +21,10 @@ My Capstone — [one-line purpose]
 ## Notes for Claude
 - Prefer small, focused commits
 - Ask before adding new dependencies
+## Additional Project Rules
+
+- Use JavaScript React components only unless TypeScript is explicitly requested.
+- Every form must include validation for required fields before submission.
+- All form inputs must have accessible labels and semantic HTML.
+- Run `npm run build` before considering a feature complete.
+- Review AI-generated code before committing changes.
