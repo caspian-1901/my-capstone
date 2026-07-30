@@ -1,0 +1,97 @@
+.app-shell {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background: linear-gradient(135deg, #f5f7ff 0%, #eef2ff 100%);
+}
+
+.settings-card {
+  width: min(100%, 560px);
+  padding: 32px;
+  border-radius: 24px;
+  background: white;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 20px 45px rgba(15, 23, 42, 0.12);
+  text-align: left;
+}
+
+.eyebrow {
+  margin: 0 0 8px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #6d28d9;
+}
+
+.description {
+  margin: 0 0 24px;
+  color: #4b5563;
+}
+
+.settings-form {
+  display: grid;
+  gap: 16px;
+}
+
+.field {
+  display: grid;
+  gap: 8px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.field select {
+  width: 100%;
+  border: 1px solid #d1d5db;
+  border-radius: 12px;
+  padding: 10px 12px;
+  font: inherit;
+  color: #111827;
+  background: #f9fafb;
+}
+
+.toggle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 500;
+  color: #374151;
+}
+
+.toggle input {
+  width: 18px;
+  height: 18px;
+  accent-color: #6d28d9;
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.btn {
+  border: none;
+  border-radius: 999px;
+  padding: 10px 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background: #6d28d9;
+  color: white;
+}
+
+.btn-secondary {
+  background: #e5e7eb;
+  color: #111827;
+}
+
+.success {
+  margin: 0;
+  color: #15803d;
+  font-weight: 600;
+}
